@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Contact-Us ~ pianoburgh</title>
+      <link rel="stylesheet" href="css/components.css">
+      <link rel="stylesheet" href="css/responsee.css">
+      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" href="css/template-style.css">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/A5062776-E490-0A4D-9EB2-D63027EE8A32/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="http://gc.kis.v2.scr.kaspersky-labs.com/23A8EE72036D-2BE9-D4A0-094E-6772605A/abn/main.css"/><script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+      <script type="text/javascript" src="js/modernizr.js"></script>
+      <script type="text/javascript" src="js/responsee.js"></script>
+      <script>
+          (function (i, s, o, g, r, a, m) {
+              i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                  (i[r].q = i[r].q || []).push(arguments)
+              }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+          })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+          ga('create', 'UA-78851932-1', 'auto');
+          ga('send', 'pageview');
+
+</script>
+<!--      <script type="text/javascript">          
+      // Create a clone of the menu, right next to original.
+          $('.menu').addClass('original').clone().insertAfter('.menu').addClass('cloned').css('position', 'fixed').css('top', '0').css('margin-top', '0').css('z-index', '500').removeClass('original').hide();
+
+          scrollIntervalID = setInterval(stickIt, 10);
+
+
+          function stickIt() {
+
+              var orgElementPos = $('.original').offset();
+              orgElementTop = orgElementPos.top;
+
+              if ($(window).scrollTop() >= (orgElementTop)) {
+                  // scrolled past the original position; now only show the cloned, sticky element.
+
+                  // Cloned element should always have same left position and width as original element.     
+                  orgElement = $('.original');
+                  coordsOrgElement = orgElement.offset();
+                  leftOrgElement = coordsOrgElement.left;
+                  widthOrgElement = orgElement.css('width');
+                  $('.cloned').css('left', leftOrgElement + 'px').css('top', 0).css('width', widthOrgElement).show();
+                  $('.original').css('visibility', 'hidden');
+              } else {
+                  // not scrolled past the menu; only show the original menu.
+                  $('.cloned').hide();
+                  $('.original').css('visibility', 'visible');
+              }
+          }</script>-->
+      <!--[if lt IE 9]>
+	      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+      <![endif]-->
+      <style>
+* {
+  margin:0;
+  padding:0;
+}
+
+body {background-color:#000000}
+p {margin:0 0 1.5em}
+
+*,
+*:before,
+*:after {box-sizing:border-box}
+
+/*
+Pure CSS3 Vertical Piano Menu by Taufik Nurrohman (http://gplus.to/tovic)
+Licence: Attribution
+*/
+
+.logo {font-size:40px; font-weight:bold;color:#00a; font-style:italic;}
+.intro {color:#777; font-style:italic; margin:10px 0;}
+.menu {background:#00a; color:#fff; height:40px; line-height:40px;letter-spacing:1px; width:100%;}
+.content {margin-top:10px;}
+.menu-padding {padding-top:40px;}
+.content {padding:10px;}
+.content p {margin-bottom:20px;}
+
+#pianoburgh
+{       float:left;
+        width:30%;
+        height:auto;
+}
+#nav-piano 
+{
+  float:right;
+  display:block;
+  background-color:#222;
+  background-image:linear-gradient(60deg,#111,#333,#111,#3c3c3c,#333 70%);
+  width:70%;
+  padding:0 15px 45px 0;
+  border-right:1px solid #111;
+  border-bottom:1px solid #111;
+  border-radius:0 0 7px 0;
+  box-shadow:2px 0 0 #666,3px 0 0 #555,4px 0 0 #444,6px 0 6px black,inset -1px 0 1px rgba(255,255,255,.5),inset -4px 0 5px black,-5px 0 10px black,-2px 10px 14px black;;
+ 
+  margin-top:-10px;
+  margin-bottom:20px;
+}
+
+#nav-piano ul,
+#nav-piano li {
+  margin:0;
+  padding:0;
+  list-style:none;
+  position:relative;
+}
+
+#nav-piano ul {box-shadow:0 2px 5px black}
+
+#nav-piano a,
+#nav-piano .tut {
+  display:block;
+  height:40px;
+  padding:0 5px 0 0;
+  background-color:#fafafa;
+  background-image:linear-gradient(-30deg,#f5f5f5,white);
+  border:1px solid #ccc;
+  box-shadow:inset 1px 0 0 white,inset -1px 0 0 white,inset 0 0 0 1px white,4px 0 3px rgba(0,0,0,.4);
+  border-radius:0 3px 3px 0;
+  text-align:right;
+  text-decoration:none;
+  color:#666;
+  text-shadow:0 1px 0 white;
+  font:italic normal 14px/37px Georgia,"URW Bookman L",Serif;
+  outline:none;
+  position:relative;
+  overflow:hidden;
+}
+
+#nav-piano a:focus,
+#nav-piano a:active {outline:none}
+
+#nav-piano .black-tut a,
+#nav-piano .black-tut .tut {
+  width:45%;
+  z-index:2;
+  background-color:#111;
+  background-image:linear-gradient(-20deg,#333,black,#333);
+  height:26px;
+  line-height:24px;
+  font-size:11px;
+  text-shadow:0 -1px 0 black;
+  color:#555;
+  margin-top:-13px;
+  margin-bottom:-13px;
+  border-width:2px 7px 2px 1px;
+  border-style:solid;
+  border-color:#666 #222 #111 #555;
+  box-shadow:inset -1px 0 2px rgba(255,255,255,.4),2px 0 3px rgba(0,0,0,.4);
+}
+
+#nav-piano a:active {
+  background-color:#f5f5f5;
+  margin-right:1px;
+  box-shadow:0 2px 2px rgba(0,0,0,.4);
+}
+#nav-piano .black-tut a:active {
+  border-right-width:2px;
+  left:-2px;
+  box-shadow:inset -1px 0 1px rgba(255,255,255,.4),1px 0 0 rgba(0,0,0,.8),0 0 2px rgba(0,0,0,.4),1px 0 0 black;
+}
+
+#nav-piano li ul {
+  position:absolute;
+  top:-10px;
+  left:100%;
+  margin-left:-10px;
+  width:200px;
+  background-color:#ffa;
+  padding:10px 0;
+  z-index:999;
+  overflow:hidden;
+  visibility:hidden;
+  opacity:0;
+  transition:all .2s ease-out;
+}
+
+#nav-piano li ul a,
+#nav-piano li ul a:active {
+  background:none;
+  border:none;
+  border-radius:0;
+  box-shadow:none;
+  height:24px;
+  line-height:24px;
+  color:#8b8b55;
+  text-shadow:none;
+  margin-right:0;
+}
+
+/* Depth Shadow */
+#nav-piano > ul > li > a:active:before,
+#nav-piano > ul > li > a:active:after {
+  content:"";
+  position:absolute;
+  top:0;
+  right:0;
+  left:0;
+  height:15px;
+  background-color:rgba(0,0,0,.1);
+  transform:rotate(1deg) translateY(-15px);
+}
+
+#nav-piano > ul > li > a:active:after {
+  top:auto;
+  bottom:0;
+  transform:rotate(-1deg) translateY(14px);
+}
+
+#nav-piano li ul a:hover {background-color:#fc6}
+
+#nav-piano li:hover ul {
+  visibility:visible;
+  opacity:1;
+  margin-left:-5px;
+}
+
+}
+
+</style>
+   </head>
+   <body class="size-1140 align-content-left">
+      <div class="line">
+         <div id="content-wrapper">
+            <!-- LEFT COLUMN -->
+            <div class="s-12 m-4 l-3">
+               <div class="aside-nav">
+               <nav id="pianoburgh"><img style=""  src="img/LogoV.Mobile.png" /></nav>
+               <nav id="nav-piano">
+                   <ul>
+                            <li><span class="tut"></span></li>
+                            <li class="black-tut"><span class="tut"></span></li>
+                            <li><a href="Index.Html#Mobile">Home</a></li>
+                            <li class="black-tut"><span class="tut"></span></li>
+                            <li><a href="services.Html#Mobile">Services</a></li>
+                            <li class="black-tut"><span class="tut"></span></li>
+                            <li><a href="Workshop.Html#Mobile">Workshop</a></li>
+                            <li><a href="gallery.Html#Mobile">Gallery</a></li>
+                            <li class="black-tut"><span class="tut"></span></li>
+                           <li><a href="FAQ.Html#Mobile">FAQ</a></li>
+                            <li class="black-tut"><span class="tut"></span></li>
+                            <li><a href="MusicLinks.Html#Mobile">Music Links</a></span></li><li>
+                             <a href="PittsburghSteinway.Html#Mobile">Steinway</a></li>                                                  
+                            <li class="black-tut"><span class="tut"></span></li>
+                            <li> <a href="Contact-Us.Html#Mobile">Contact Us</a></li>   
+                            <li class="black-tut"><span class="tut"></span></li>
+                            <li><a href="https://twitter.com/pianoburgh"><i class="icon-twitter_circle"></i></a></li>
+                            <li class="black-tut"><span class="tut"></span></li>
+                            <li><span class="tut"><a id="Mobile"></a></span></li>
+                  </ul>
+                  </nav>
+
+               </div>
+                
+            </div>
+<!--            <div class="menu">Menu goes here - home - links - blah blah</div>-->
+            <!-- RIGHT COLUMN -->   
+            <div  class="s-12 m-8 l-9">
+               <div class="box">
+               
+                  <!-- HEADER -->     
+                  <!-- CAROUSEL --> 
+                  <section>
+                     <article class="line">
+                        <div class="margin">
+                           <div class="s-12 m-12 l-10">
+                           <br />
+                              <h2>Contact us:</h2>
+                              <hr>
+                              <p>Telephone:  412.881.3067 </p>
+                              <p>Email:  <a href"mailto:info@pianoburgh.com">info@pianoburgh.com</a></p>
+                              <p>This site is provided by Peter A. Stumpf, Registered Piano Technician and a piano player as a goodwill gesture to Pittsburgh and the local piano industry. A description of my services can be found under the services page. Please feel free to contact me personally if you have individual piano issues. </p>
+                              
+                              <p>follow on twitter <br />I am attempting to share everything I know and love about the piano 140 characters at a time. Cultural events and other musical news as well</p>
+                              <a href="https://twitter.com/pianoburgh" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @pianoburgh</a>
+        <script>            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } } (document, 'script', 'twitter-wjs');</script>
+                              <hr>
+
+                           </div>
+                        </div>
+                     </article>
+                  </section>
+               </div>
+               <!-- FOOTER --> 
+               <div class="box footer">
+                  <footer class="line">
+                     <div class="s-12 l-6">
+                        <p>Copyright 2015, pianoburgh</p>
+                     </div>
+                     <div class="s-12 l-6">
+                        <a class="right" href="http://www.thedeskdoctors.com" title="The Desk Doctors">Design and coding by The Desk Doctors</a>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+         </div>
+      </div>
+      <img id="background" class="hide-s" src="img/banner.jpg" alt="">   
+      <script type="text/javascript" src="owl-carousel/owl.carousel.min.js"></script>  
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {		  
+           $("#owl-demo").owlCarousel({		
+         	navigation : true,
+         	slideSpeed : 300,
+         	paginationSpeed : 400,
+         	autoPlay : true,
+         	singleItem:true
+           });	  
+         });	
+          
+      </script>
+   </body>
+</html>
